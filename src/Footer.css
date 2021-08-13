@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #232F3E;
+    height: 300px;
+    position: relative;
+    justify-content: space-evenly;
+   
+}
+
+.footer__centerDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer__column {
+  margin-top: 50px;
+  color: white;
+  margin-right: 100px;
+}
+
+.footer__column > h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.footer__column > p {
+   font-size: 14px;
+   margin-bottom: 10px;
+   font-weight: 300;
+}
